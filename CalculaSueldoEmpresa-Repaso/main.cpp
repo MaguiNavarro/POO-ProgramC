@@ -1,4 +1,4 @@
-#include "Empleado.h"
+
 #include "Administrativo.h"
 #include "Tecnico.h"
 #include "Planilla.h"

@@ -3,8 +3,6 @@
 // Constructor
 Categoria::Categoria(float sueldoBasico) : sueldoBasico(sueldoBasico) {}
 
-// Destructor
-Categoria::~Categoria() {}
 
 // Implementación de los métodos no virtuales
 float Categoria::calcularObraSocial(float sueldoBruto) const {

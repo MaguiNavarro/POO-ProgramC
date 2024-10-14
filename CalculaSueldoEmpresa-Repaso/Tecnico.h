@@ -14,4 +14,4 @@ public:
     void mostrarDetalles(Empleado empleado) const override;
 };
 
-#endif TECNICO_H
+#endif 

@@ -18,7 +18,7 @@ void Administrativo::mostrarDetalles(Empleado empleado) const {
     float sueldoNeto = calcularSueldoNeto(sueldoBruto, aporteJubilatorio);
 
     std::cout << "DNI: " << empleado.getDni() << ", Nombre: " << empleado.getNombre()
-              << ", Antigüedad: " << antiguedad << ", Sueldo Bruto: $" << std::fixed  << sueldoBruto
+              << ", Antiguedad: " << antiguedad << ", Sueldo Bruto: $" << std::fixed  << sueldoBruto
               << ", Aporte Jubilatorio: $" << aporteJubilatorio
               << ", Obra Social: $" << obraSocial
               << ", Sueldo Neto: $" << sueldoNeto << std::endl;

@@ -12,7 +12,6 @@ private:
 
 public:
     Categoria(float sueldoBasico);
-    virtual ~Categoria() {}
 
     virtual float calcularSueldoBruto(int antiguedad) const = 0;
     virtual float calcularAporteJubilatorio(float sueldoBruto) const = 0;
@@ -22,4 +21,4 @@ public:
 };
 
 
-#endif  CATEGORIA_H
+#endif 

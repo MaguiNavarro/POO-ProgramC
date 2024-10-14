@@ -1,7 +1,7 @@
 #ifndef PLANILLA_H
 #define PLANILLA_H
 #include <vector>
-#include "Empleado.h"
+
 #include "Categoria.h"
 
 class Planilla
